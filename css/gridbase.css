@@ -1,0 +1,127 @@
+/* 
+    Document   : gridbase
+    Created on : 2012/02/07, 22:20:39
+    Author     : kohechi
+    Description: grid css
+    Purpose of the stylesheet follows.
+*/
+
+.inner_1, .inner_2, .inner_3,	.inner_4, .inner_5, .inner_6, .inner_7, .inner_8,
+.inner_9, .inner_10, .inner_11, .inner_12, .inner_13, .inner_14, .inner_15, .inner_16
+{
+	display: block;
+	margin: 0 8px 16px;
+	float: left;
+}
+
+.outer_1, .outer_2, .outer_3,	.outer_4, .outer_5, .outer_6, .outer_7, .outer_8,
+.outer_9, .outer_10, .outer_11, .outer_12, .outer_13, .outer_14, .outer_15, .outer_16
+{
+	display: block;
+	float: left;
+}
+
+.inner_1			{	width:  44px;	}
+.inner_2			{	width: 104px;	}
+.inner_3			{	width: 164px; }
+.inner_4			{	width: 224px; }
+.inner_5			{	width: 284px; }
+.inner_6			{	width: 344px; }
+.inner_7			{	width: 404px; }
+.inner_8			{	width: 464px; }
+.inner_9			{	width: 524px; }
+.inner_10		{	width: 584px; }
+.inner_11		{	width: 644px; }
+.inner_12		{	width: 704px; }
+.inner_13		{	width: 764px; }
+.inner_14		{	width: 824px; }
+.inner_15		{	width: 884px; }
+.inner_16		{	width: 944px; }
+
+.outer_1			{	width:  60px; }
+.outer_2			{	width: 120px; }
+.outer_3			{	width: 180px; }
+.outer_4			{	width: 240px; }
+.outer_5			{	width: 300px; }
+.outer_6			{	width: 360px; }
+.outer_7			{	width: 420px; }
+.outer_8			{	width: 480px; }
+.outer_9			{	width: 540px; }
+.outer_10		{	width: 600px; }
+.outer_11		{	width: 660px; }
+.outer_12		{	width: 720px; }
+.outer_13		{	width: 780px; }
+.outer_14		{	width: 840px; }
+.outer_15		{	width: 900px; }
+.outer_16		{	width: 960px; }
+
+.left					{	float: left;	}
+.right				{	float: right; }
+.center
+{	display: block;
+	float: none;
+	margin: 0 auto;
+}
+
+.prefix_1		{	margin-left:  68px; }
+.prefix_2		{	margin-left: 128px; }
+.prefix_3		{	margin-left: 188px; }
+.prefix_4		{	margin-left: 248px; }
+.prefix_5		{	margin-left: 308px; }
+.prefix_6		{	margin-left: 368px; }
+.prefix_7		{	margin-left: 428px; }
+.prefix_8		{	margin-left: 488px; }
+.prefix_9		{	margin-left: 548px; }
+.prefix_10		{	margin-left: 608px; }
+.prefix_11		{	margin-left: 668px; }
+.prefix_12		{	margin-left: 728px; }
+.prefix_13		{	margin-left: 788px; }
+.prefix_14		{	margin-left: 848px; }
+.prefix_15		{	margin-left: 908px; }
+
+.suffix_1		{	margin-right:  68px; }
+.suffix_2		{	margin-right: 128px; }
+.suffix_3		{	margin-right: 188px; }
+.suffix_4		{	margin-right: 248px; }
+.suffix_5		{	margin-right: 308px; }
+.suffix_6		{	margin-right: 368px; }
+.suffix_7		{	margin-right: 428px; }
+.suffix_8		{	margin-right: 488px; }
+.suffix_9		{	margin-right: 548px; }
+.suffix_10		{	margin-right: 608px; }
+.suffix_11		{	margin-right: 668px; }
+.suffix_12		{	margin-right: 728px; }
+.suffix_13		{	margin-right: 788px; }
+.suffix_14		{	margin-right: 848px; }
+.suffix_15		{	margin-right: 908px; }
+
+.clearfix:before,
+.clearfix:after
+{
+	content: '';
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+}
+.clear
+{
+	clear: both;
+}
+
+.bound
+{
+	height: 16px;
+	border: 0;
+	margin: 0;
+	background: transparent;
+	clear: both;
+}
+
